@@ -1,1 +1,1 @@
-My Name: Israel (Izzy) Alfred 
+My Name: Izzy (Israel) Alfred 
