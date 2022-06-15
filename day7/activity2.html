@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Login Form</h2> <hr />
+    <form name = "login" action = "index.html" method="post" onsubmit="return handleSubmit()">
+        Firstname <input type = "text" name = "un" /> <br />
+        Lastname <input type = "text" name = "la" /> <br />
+        Gender <input type = "checkbox" id="gen" name = "gen" value="yes" /> <br />
+        Password <input type = "password" name = "pw" /> <br />
+        Confirm Password <input type = "confirm" name = "cn" /> <br />
+        Skills <input type = "checkbox" id="accept" name = "accept" value="yes" /> <br />
+
+        <input type = "submit" value = "Register" />
+       
+    </form>
+    <script type = "text/javascript">
+        function handleSubmit() {
+            let loginForm = document.login; //form['login']
+            let name = loginForm.un; // input['un']
+            let gener = loginForm.ge; // input['un']
+            let password = LoginForm.un;
+            let pass = loginForm.pw; // input['pw']
+            let confirm = LoginForm.cn;
+            if(user.value.length == 0) {
+                alert('Username is empty');
+                return false;
+            }
+            if(pass.value.length == 0) {
+                alert('Password is empty');
+                return false;
+            }
+        }
+    </script>
+</body>
+</html>
